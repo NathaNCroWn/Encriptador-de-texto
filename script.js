@@ -15,6 +15,11 @@ function btnDesencriptar(){
     
 }
 
+function btncopiar(){
+    mensaje.select();
+    document.execCommand("copy");
+}
+
 
 function encriptar(stringEncriptado) {
     let matCodigo = [["e", "enter"], ["i", "imes"], ["a", "ai"], ["o", "ober"], ["u", "ufat"]];
@@ -41,3 +46,4 @@ function desencriptar(stringDesencriptado) {
     }
     return stringDesencriptado
 }
+

@@ -10,7 +10,7 @@
 .logoalura{
     padding-top: 10px;
     margin-left: 20px;
-    width: 70px;
+    width: 100px;
 }
 
 main{
@@ -23,7 +23,7 @@ main{
 
     border: none;
     color: #0A3871;
-    margin-top: 90px;
+    margin-top: 70px;
     text-transform: lowercase;
 }
 ::placeholder{ color: #0A3871;}
@@ -39,9 +39,9 @@ main{
     border: none;
     border-radius: 24px;
     color: #0A3871;
-    margin-top: 90px;
-    margin-top: 90px;
-    padding-left: 20px;
+    margin-top: 70px;
+    margin-top: 70px;
+    padding-left: 110px;
     position: fixed;
 }
 .mensaje:focus{
@@ -53,6 +53,7 @@ main{
     color: #0A3871;
     font-size: 20px;
 }
+
 
 .botones{
     display: flex;
@@ -80,14 +81,14 @@ main{
     width:  328px;
 }
 
-.copiar{
+.btncopiar{
     border: 1px solid #0A3871;
     border-radius:  24px;
     color: #0A3871;
     cursor: pointer;
     height: 67px;
     margin-left: 108px;
-    margin-top: 730px;
+    margin-top: 710px;
     position: fixed;
     width:  336px;
 }
