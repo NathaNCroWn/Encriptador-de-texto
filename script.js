@@ -28,7 +28,6 @@ function encriptar(stringEncriptado) {
     for (let i = 0; i < matCodigo.length; i++) {
         if (stringEncriptado.includes(matCodigo[i][0])){
             stringEncriptado = stringEncriptado.replaceAll(matCodigo[i][0], matCodigo[i][1])
-
         }
     }
     return stringEncriptado
